@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YC Application Predictor</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Y Combinator Application Prediction</h1>
+        <form id="simple-form" method="POST" action="/">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="company-name" name="company_name" placeholder="Your Company Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="company-pitch" name="company_intro" placeholder="Your pitch in 1 line" required>
+            </div>
+            <button type="submit">predict 🔮</button>
+        </form>
+    </div>
+    <div class="footer">
+        <a href="https://metaforms.ai/" target="_blank" style="color: white; text-decoration: none;">
+            conduct user research for your next 🦄 on Metaforms (yes, it's also AI powered)
+        </a>
+    </div>
+</body>
+</html>

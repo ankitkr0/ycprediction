@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result - YC Application Predictor</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction</h1>
+        <div id="result-content">
+            <p><strong></strong> {{ prediction }}</p>
+            <button onclick="window.location.href='https://twitter.com/intent/post?text=Will%20YC%20accept%20your%20application%20or%20not%3F%20This%20tool%20predicts%20the%20fate%20of%20your%20company.%20&url=https%3A%2F%2Fmetaforms.ai%2F'">Share this on X</button>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://metaforms.ai/" target="_blank" style="color: white; text-decoration: none;">
+            conduct user research for your next 🦄 on Metaforms (yes, it's also AI powered)
+        </a>
+    </div>
+</body>
+</html>

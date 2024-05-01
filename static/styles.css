@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5EE; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+    font-family: Avenir, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji"; /* Font family */
+}
+
+.container {
+    width: 50%; /* Adjust width as needed */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff4000; /* Primary color for headings */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 8px 10px; /* Padding inside the input */
+    margin: 8px 0; /* Margin for spacing between inputs */
+    display: inline-block; /* Ensures the input is in a line */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    font-size: 16px; /* Larger font size for better readability */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Adds space below each form group */
+}
+
+button {
+    background-color: #ff4000; /* Orange background color */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    padding: 12px 24px; /* Adjust padding to increase the button size */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold; /* Bold font */
+}
+
+button:hover {
+    background-color: #cc3300; /* Darker shade of orange on hover */
+}
+
+#result-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ff4000; /* Primary color border around the result content */
+    margin-top: 20px;
+}
+
+#result-content p {
+    font-size: 18px; /* Larger text for readability */
+    color: #333; /* Dark text color */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff4000; /* Adjust the color to fit your design */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
